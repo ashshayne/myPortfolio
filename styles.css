@@ -1,0 +1,152 @@
+:root {
+  --default-font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background-color: #D9C5A1 !important;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 15rem;
+  background-color: #5C4033;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image-container {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #5C4033;
+  background-color: #5C4033;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px; /* Moves the image up to overlap the container */
+ /* Ensures the image appears on top of the container */
+
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.about-me {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 70px;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.contact-info, .year-info-div {
+  background-color: #f5f0e1;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#sentence{
+  background-color: #f5f0e1;
+}
+mark {
+  background-color: #d29d6e !important;
+}
+.bs-information-technology {
+  
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.ellipse, .ellipse-3, .ellipse-4, .ellipse-5, .ellipse-6, .ellipse-1b, .ellipse-1c, .ellipse-1d {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #C1A38D;
+}
+
+.ellipse-3 { width: 260px; height: 258px; left: 10px; top: 126px; }
+.ellipse-4 { width: 260px; height: 258px; right: 10px; top: 126px; }
+.ellipse-5 { width: 369px; height: 334px; top: 127px; left: 100px; }
+.ellipse-6 { width: 283px; height: 243px; top: 50px; left: 453px; }
+.ellipse-1b { width: 355px; height: 360px; top: 318px; left: 0; }
+.ellipse-1c { width: 82px; height: 57px; top: 417px; left: 512px; }
+.ellipse-1d { width: 374px; height: 223px; top: 436px; right: 50px; }
+
+/* Project buttons */
+button {
+  top: 50px;
+  position: relative;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 28px;
+  }
+
+  .profile-img {
+      width: 120px;
+      height: 120px;
+  }
+
+  .ellipse-3, .ellipse-4, .ellipse-5, .ellipse-6, .ellipse-1b, .ellipse-1c, .ellipse-1d {
+      width: 50px;
+      height: 50px;
+  }
+
+  .contact-info, .year-info-div, .bs-information-technology {
+
+      padding: 5px;
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  header h1 {
+      font-size: 22px;
+  }
+
+  .profile-img {
+      width: 100px;
+      height: 100px;
+  }
+
+  .ellipse-3, .ellipse-4, .ellipse-5, .ellipse-6, .ellipse-1b, .ellipse-1c, .ellipse-1d {
+      display: none;
+  }
+
+  .contact-info, .year-info-div, .bs-information-technology {
+      font-size: 14px;
+  }
+
+  button {
+      font-size: 16px;
+  }
+}
