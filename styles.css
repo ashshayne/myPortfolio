@@ -107,6 +107,9 @@ button {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .contact-info {
+    margin-bottom: 15px;
+  }
   header h1 {
       font-size: 28px;
   }
