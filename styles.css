@@ -132,6 +132,9 @@ button {
   header h1 {
       font-size: 22px;
   }
+  .contact-info {
+    margin-bottom: 15px;
+  }
 
   .profile-img {
       width: 200px;
