@@ -134,8 +134,9 @@ button {
   }
 
   .profile-img {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
   }
 
   .ellipse-3, .ellipse-4, .ellipse-5, .ellipse-6, .ellipse-1b, .ellipse-1c, .ellipse-1d {
